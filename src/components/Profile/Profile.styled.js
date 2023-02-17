@@ -18,6 +18,10 @@ width: 100%;
 height: 400px;
 text-align: center;
 padding: 25px;
+
+color: gray;
+font-size: medium;
+font-weight: 400;
 `;
 
 export const Img = styled.img`
@@ -36,17 +40,11 @@ margin-top: 12px;
 `;
 
 export const CardTag = styled.p`
-color: gray;
-font-size: medium;
-font-weight: 400;
 margin: 0;
 margin-top: 6px;
 `;
 
 export const CardLocation = styled.p`
-color: gray;
-font-size: medium;
-font-weight: 400;
 margin: 0;
 margin-top: 6px;
 `;
