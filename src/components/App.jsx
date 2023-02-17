@@ -4,19 +4,14 @@ import { Statistics } from "./Statistics/Statistics";
 import data from "data.json";
 import { FriendList } from "./FriendList/FriendList";
 import friends from "friends.json";
+import { GlobalStyle } from "./GlobalStyle";
+
+import { Layout } from "./Layout";
 
 export const App = () => {
   return (
-    <div
-      // style={{
-      //   height: '100vh',
-      //   display: 'flex',
-      //   justifyContent: 'center',
-      //   alignItems: 'center',
-      //   fontSize: 40,
-      //   color: '#010101'
-      // }}
-    >
+    <Layout>
+      <GlobalStyle/>
       <div>
         <Profile
           name={user.username}
@@ -32,6 +27,6 @@ export const App = () => {
       <ul>
         <FriendList friends={friends}/>
       </ul>
-    </div>
+      </Layout>
   );
 };
