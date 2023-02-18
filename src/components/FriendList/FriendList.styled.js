@@ -29,6 +29,9 @@ width: 15px;
 height: 15px;
 border: 1px solid black;
 border-radius: 50%;
+background-color: ${props =>{
+    return props.isOnline ? 'green' : 'red';
+}};
 `;
 
 export const Name = styled.p`

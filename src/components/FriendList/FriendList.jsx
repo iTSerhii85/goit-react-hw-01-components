@@ -14,7 +14,5 @@ export const FriendList = ({friends}) => {
     }
 
 FriendList.propTypes = {
-    avatar: PropTypes.string,
-    name: PropTypes.string,
     id: PropTypes.number,
 }
