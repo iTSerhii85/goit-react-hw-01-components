@@ -7,7 +7,7 @@ export const Profile = ({ name, tag, location, avatar, stats }) => {
       <Img
         src={avatar}
         alt={name}
-        class="avatar"
+        className="avatar"
       />
       <CardName>{name}</CardName>
       <CardTag>@{tag}</CardTag>
